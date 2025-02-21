@@ -5,6 +5,3 @@ class Solution:
                 if (nums[i] + nums[j]) == target:
                     return [i, j]
         return [-1,-1]
-
-
-print(Solution.twoSum(Solution, [1, 4, 7], 11))
