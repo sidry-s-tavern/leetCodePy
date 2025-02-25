@@ -7,11 +7,9 @@ class Solution:
                 con = False
                 continue
             curr = Solution.romanToIntChar(s[i])
-            print("i", i, "curr", curr)
             next = 0
             if i != (len(s) - 1):
                 next = Solution.romanToIntChar(s[i + 1])
-                print("next", next)
                 if curr < next:
                     res = res + next - curr
                     con = True
@@ -19,7 +17,6 @@ class Solution:
                     res += curr
             else:
                 res += curr
-            print("res", res)
         return res
 
     def romanToIntChar(s: str) -> int:
