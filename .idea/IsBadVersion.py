@@ -1,6 +1,6 @@
 class Solution:
     """
-    is not done: 11 / 24 Time Limit Exceeded
+    TODO: is not done: 11 / 24 Time Limit Exceeded
     """
     def firstBadVersion(self, n: int) -> int:
         if Solution.isBadVersion(n):
